@@ -1,0 +1,316 @@
+
+/*navbar*/
+.navbar,
+.navbar-brand
+{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 0;
+} 
+
+.navbar-brand img{
+    height: 70px !important
+}
+
+.navbar ul li a{
+    font-size: 15px !important;
+}
+
+.navbar ul li:hover a{
+    color: red !important;
+    font-weight: normal !important
+}
+.navbar ul li:focus a{
+    color: red !important;
+}
+
+.navbar ul li .active{
+    color: red !important;
+    font-weight: normal !important
+}
+/*/navbar*/
+
+/*header*/
+
+.header{
+    background-image: url(../img/cover.jpg);
+    height: 700px
+}
+
+.header .overlay{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(236, 51, 55, 0.7);  
+}
+
+.header .mine-class h1{
+    width: 80% ;
+    font-size: 60px;
+    text-shadow: 1px 2px 3px black
+}
+
+.header .mine-class p{
+    width: 80% ;
+    font-size: 25px;
+}
+
+.header .mine-class button:hover{
+   color: rgba(236, 51, 55, 0.7);
+}
+
+.header .con2{
+    bottom: 50px;
+    left: 50%;
+    animation: animate infinite 3s
+}
+@keyframes animate {
+    0%{
+        bottom: 50px;
+    }
+   
+    50%{
+        bottom: 30px;
+    }
+ 
+    100%{
+        bottom: 50px;
+    }
+}
+
+
+
+/*/header*/
+
+/*about me*/
+.about{
+    color: #444444
+}
+.about p{
+    color: rgba(96, 96, 96, 0.79);
+    line-height: 1.5;
+    font-size: 18px
+}
+.about .row a{
+    color: rgba(96, 96, 96, 0.79);
+    border: 1px solid #444444 !important;
+    font-size: 10px !important;
+    padding: 10px !important;
+    margin-left: 10px
+}
+
+.about .row a:hover{
+    background-color: #ec3237;
+    color: #ffffff;
+    border: 1px solid #ec3237;
+}
+
+.about .font p{
+    font-size: 90%
+}
+.about .container .button1{
+    background-color: #ec3237;
+    transition: all .8s
+}
+
+.about .container .button1:hover{
+    background-color: #c62d32
+}
+
+/*/about me*/
+
+
+/*what*/
+.what{
+    background-color: #F5F5F5;
+    color: #444444;
+    line-height: 1.7
+}
+.what .brand{
+    padding: 15px;
+    background-color: white;
+    box-shadow: 1px 1px 4px -2px #454545;
+    margin-bottom: 30px
+}
+
+.what .brand span{
+    background-color: #eeeeee;
+    color: #777777;
+ }
+
+.what .brand p{
+    font-size: 18px
+ }
+.what .row .brand:hover span{
+    background-color: #EC3237 ;
+    color: #fff !important;
+}
+.what .row .brand:hover h5{
+    color: #EC3237 ;
+}
+
+
+/*/what*/
+
+/*logos*/
+.logos{
+    height: 400px;
+    background-color: #F5F5F5;
+    color: #444444;
+    background-image: url(../img/project-counter.jpg);
+    background-attachment: fixed
+}
+
+.logos .logo{
+    border: 2px solid white;
+    padding: 30px
+}
+
+.logos .logo span,
+.logos .logo h4{
+    color: #EC3237
+}
+
+.logos .logo h2{
+    font-size: 45px
+}
+
+/*/logos*/
+
+/*portofolio*/
+.portofolio{
+    background-color: #F5F5F5;
+    color: #444444;
+}
+.portofolio ul {
+    display: inline-block;
+    padding-bottom: 50px
+}
+
+.portofolio ul li a{
+    color: black;
+    font-weight: 500
+}
+
+.portofolio ul li {
+    float: left;
+    margin-left: 10px;
+    color: #EC3237;
+    border: 2px solid #6f6f6f;
+}
+
+.portofolio ul li:hover{
+    color: #EC3237;
+    border: ;
+    border: 2px solid #EC3237
+    
+}
+.portofolio ul li:hover a{
+    color: #EC3237;
+}
+.portofolio ul li:active {
+    color: #EC3237;
+    border: 0;
+}
+
+.portofolio ul li .active {
+    color: #EC3237;
+    background-color: #EC3237;
+    color: white;
+}
+
+.portofolio .search{
+    bottom: 90px;
+    left: 45%;
+    background-color: black;
+    color: white
+}
+.portofolio .hov:hover .search{
+    background-color: #EC3237;
+}
+.portofolio .pad{
+    margin: 0 5px
+}
+.portofolio .hov h3{
+    font-size: 100%
+}
+/*/portofolio*/
+
+/*testmonia*/
+.bd-example{
+    background-image: url(../img/client-testimonial.jpg);
+    background-attachment: fixed;
+    height: 500px
+}
+.carousel-caption {
+  bottom: 10%;
+}
+.carousel-indicators li{
+    width: 0;
+    height: 0
+}
+
+.bd-example .image{
+    border: 8px solid #EC3237
+}
+
+.bd-example h4{
+    color: #EC3237
+}
+/*/testmonia*/
+
+/*hire me*/
+.hire{
+    color: #444444
+}
+.hire .row textarea{
+    height: 190px;
+}
+.hire .col-6 h4{
+    font-size: 100%;
+    font-weight: bold
+}
+.hire .row .imp a{
+    color: #444444;
+    border: 1px solid #444444 ;
+    font-size: 10px ;
+    padding: 10px ;
+    margin-left: 10px
+}
+
+.hire .row .imp a:hover{
+    background-color: #ec3237;
+    color: #ffffff;
+    border: 1px solid #ec3237;
+}
+
+.hire input:focus{
+    border: 2px solid #444444
+}
+
+.hire textarea:focus{
+    border: 2px solid #444444
+}
+
+.hire .row .border1{
+    text-decoration: none;
+    border: 0 ;
+    font-size: 18px ;
+    margin:0 ;
+    color: #ec3237
+}
+/*hire me*/
+
+/*footer*/
+.footer a{
+    color: #ec3237
+}
+
+.footer p{
+    color: rgba(116, 116, 116, 0.63)
+}
+/*/footer*/
